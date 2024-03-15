@@ -1,0 +1,17 @@
+//C++ Program to find character is alphabet or not
+
+#include <iostream>
+using namespace std;
+int main()
+{
+    char ch='k';
+
+ 
+    if( (ch>=97 && ch<=122) || (ch>=65 && ch<=90))
+        cout<<"The inserted character " <<ch<<" is an Alphabet";
+   
+    else
+        cout<<"The inserted character " <<ch<<" is not an Alphabet";
+
+    return 0;
+}
